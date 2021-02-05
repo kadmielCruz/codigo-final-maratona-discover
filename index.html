@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev.finance$</title>
+    <link rel="shortcut icon" href="assets/total.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<header>
+        <img src="./assets/logo.svg" alt="logo dev finance">
+        <div class="darktheme">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label class="label" for="checkbox">
+                <i class="fas fa-moon"></i>
+                <i class="far fa-lightbulb"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="balance">
+            <h2 class="sr-only">Balanço</h2>
+
+            <div class="card">
+                <h3>
+                    <span>Entradas</span>
+                    <img src="./assets/income.svg" alt="Image de entradas">
+                </h3>
+                <p id="incomeDisplay"><!--R$ 5.000,00--></p>
+            </div>
+
+            <div class="card">
+                <h3><span>Saidas</span>
+                    <img src="./assets/expense.svg" alt="Image de saidas">
+                </h3>
+                <p id="expenseDisplay"><!--R$ 2.000,00--></p>
+            </div>
+
+            <div class="card total">
+                <h3><span>Total</span>
+                    <img src="./assets/total.svg" alt="Image de total">
+                </h3>
+                <p id="totalDisplay"><!--R$ 3.000,00--></p>
+            </div>
+
+        </section>
+
+
+        <section id="transaction">
+            <h2 class="sr-only">Transações</h2>
+
+            <a href="#" 
+            onclick="Modal.open()"
+            class="button new">+ Nova Transação</a>
+
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <div class="modal-overlay ">
+        <div class="modal">
+            <div id="form">
+                <h2>Nova Transação</h2>
+                <form action="" onsubmit="Form.submit(event)">
+                    <div class="input-group">
+                        <label 
+                        class="sr-only"
+                        for="">Descrição</label>
+                        <input type="text" name="description" id="description" placeholder="descrição">
+                    </div>
+
+                    <div class="input-group">
+                        <label 
+                        class="sr-only"
+                        for="">Valor</label>
+                        <input type="number" step="0.01"
+                        name="amount" id="amount" placeholder="0,00">
+                        <small>Use o sinal - (negativo) para despesas e ,(virgula) para casas decimais</small>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label 
+                        class="sr-only"
+                        for="date">Data</label>
+                        <input type="date" name="date" id="date" >
+                    </div>
+
+                    <div class="input-group actions">
+                        <a href="#"
+                        onclick="Modal.close()"
+                        class="button cancel">Cancelar</a>
+                        <button>Salvar</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/c01ccabf8f.js" crossorigin="anonymous"></script>
+    <footer>
+        <p>
+            dev.finance$
+        </p>
+    </footer>
+
+
+    <script>
+        
+    </script>
+</body>
+
+</html>
