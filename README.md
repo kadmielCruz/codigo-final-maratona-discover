@@ -5,6 +5,10 @@ https://www.youtube.com/watch?v=NlDr6JX3VvA&ab_channel=MaykBrito
 
 
 https://maratonadiscover.rocketseat.com.br/inscricao 
+
+
+
+
 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
