@@ -1,6 +1,6 @@
 # codigo-final-maratona-discover
 
-projeto feito pela maratona Discover dispnonivel no Canal do Mayke Brito  e no site da Rocketseat:
+Projeto feito pela maratona Discover dispnonivel no Canal do Mayke Brito  e no site da Rocketseat afim de estudar e se aprofundar nas tecnologias:
 https://www.youtube.com/watch?v=NlDr6JX3VvA&ab_channel=MaykBrito
 
 
