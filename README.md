@@ -25,4 +25,4 @@ JavaScript
 O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
 Projeto finalizado e rodando:
-https://codigo-final-maratona-discover.vercel.app/#
+https://codigo-final-maratona-discover.vercel.app
