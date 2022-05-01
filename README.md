@@ -1,7 +1,17 @@
 
 
-💻 Projeto:
-Projeto feito afim de estudos em grupo pela faculdade Senac-DF consiste em um fazer um site para a copa do Qatar 2022 com tabelas,links,texto,e estilização 💰
+# projetoCopa
+
+# TRabalho feito em grupo
+
+# codigo-final-maratona-discover
+
+Projeto feito pela maratona Discover dispnonivel no Canal do Mayke Brito  e no site da Rocketseat afim de estudar e se aprofundar nas tecnologias:
+https://www.youtube.com/watch?v=NlDr6JX3VvA&ab_channel=MaykBrito
+
+
+https://maratonadiscover.rocketseat.com.br/inscricao 
+
 
 
 
@@ -12,8 +22,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 HTML
 CSS
-Bootstrap
+JavaScript
 
+
+
+
+💻 Projeto:
+O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
 Projeto finalizado e rodando:
-https://kadmielcruz.github.io/projetoCopa/
+https://codigo-final-maratona-discover.vercel.app
