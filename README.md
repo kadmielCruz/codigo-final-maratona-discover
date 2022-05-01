@@ -1,9 +1,4 @@
 
-
-# projetoCopa
-
-# TRabalho feito em grupo
-
 # codigo-final-maratona-discover
 
 Projeto feito pela maratona Discover dispnonivel no Canal do Mayke Brito  e no site da Rocketseat afim de estudar e se aprofundar nas tecnologias:
